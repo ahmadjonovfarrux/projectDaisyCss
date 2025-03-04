@@ -25,7 +25,22 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
+/* Header */
+.hidden {
+  display: none;
+}
 
+@media (max-width: 450px) {
+  .hidden {
+    display: flex;
+  }
+
+  .header__item {
+    display: none;
+  }
+}
+
+/* Collection */
 .collection__container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(370px, 1fr));
