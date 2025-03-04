@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <!-- style -->
+    <link rel="stylesheet" href="./src/output.css" />
+    <link rel="stylesheet" href="./src/style.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div
+        class="header__container p-8 flex justify-between items-center bg-gray-300"
+      >
+        <h3 class="header__title font-bold text-2xl">NewMarket</h3>
+        <ul class="header__list flex items-center gap-5">
+          <li class="header__item">
+            <a class="header__link" href="#">
+              <i class="fa-regular fa-heart"></i> Likes</a
+            >
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">
+              <i class="fa-solid fa-user"></i>
+              About
+            </a>
+          </li>
+          <li class="header__item">
+            <a class="header__link" href="#">
+              <i class="fa-solid fa-cart-shopping"></i>
+              Shop
+            </a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- Main -->
+    <main class="main">
+      <section class="hero container"></section>
+      <section class="collection">
+        <div class="collection__container container"></div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__container container">
+        <ul class="footer__list">
+          <a class="footer__list__link" href="">
+            <li class="footer__item bold">About</li></a
+          >
+          <a class="footer__list__link" href="">
+            <li class="footer__item">Place you get</li></a
+          >
+          <a class="footer__list__link" href="">
+            <li class="footer__item">Vacations</li></a
+          >
+        </ul>
+        <ul class="footer__list">
+          <a class="footer__list__link" href="">
+            <li class="footer__item bold">Consumers</li></a
+          >
+          <a class="footer__list__link" href=""
+            ><li class="footer__item">Contact</li></a
+          >
+          <a class="footer__list__link" href="">
+            <li class="footer__item">Questions</li></a
+          >
+        </ul>
+        <ul class="footer__list">
+          <a class="footer__list__link" href=""
+            ><li class="footer__item bold">Businessmen</li></a
+          >
+          <a class="footer__list__link" href="">
+            <li class="footer__item">Place for sale</li></a
+          >
+          <a class="footer__list__link" href="">
+            <li class="footer__item">Page of saler</li></a
+          >
+          <a class="footer__list__link" href=""
+            ><li class="footer__item">Opening sale place</li></a
+          >
+        </ul>
+        <ul class="footer__list">
+          <li class="footer__item">Install apps</li>
+          <li class="footer__item extraStyle">
+            <a class="footer__list__link" href="">
+              <img src="./images/apple_ico.png" alt="apple-ico"
+            /></a>
+            <a class="footer__list__link" href=""
+              ><img src="./images/google-play.png" alt="google-play"
+            /></a>
+          </li>
+          <a class="footer__list__link" href="">
+            <li class="footer__item">Market in social media</li></a
+          >
+          <li class="footer__item extraStyle">
+            <a class="footer__list__link" href="">
+              <img src="./images/instagram.png" alt="instagram"
+            /></a>
+            <a class="footer__list__link" href=""
+              ><img src="./images/telegram.png" alt="telegram"
+            /></a>
+            <a class="footer__list__link" href=""
+              ><img src="./images/facebook.png" alt="facebook"
+            /></a>
+            <a class="footer__list__link" href="">
+              <img src="./images/youtube.png" alt="youtube"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+    <div id="app"></div>
+    <script type="module" src="./src/js/main.js"></script>
+  </body>
+</html>
